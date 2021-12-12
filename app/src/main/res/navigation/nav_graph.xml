@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/collection">
+
+    <fragment
+        android:id="@+id/nav_new_loan"
+        android:name="com.financial.bala.ui.fragment.NewLoanFragment"
+        android:label="Collection"
+        tools:layout="@layout/new_loan_fragment" />
+
+    <fragment
+        android:id="@+id/reorder"
+        android:name="com.financial.bala.ui.fragment.RecorderFragment"
+        android:label="Recorder"
+        tools:layout="@layout/recorder_fragment" />
+
+    <fragment
+        android:id="@+id/watch_list"
+        android:name="com.financial.bala.ui.fragment.WatchListFragment"
+        android:label="Wish List"
+        tools:layout="@layout/watch_list_fragment" />
+    <fragment
+        android:id="@+id/closed_accounts"
+        android:name="com.financial.bala.ui.fragment.ClosedAccountsFragment"
+        android:label="Closed Accounts"
+        tools:layout="@layout/closed_accounts_fragment" />
+
+    <fragment
+        android:id="@+id/missing_accounts"
+        android:name="com.financial.bala.ui.fragment.ClosedAccountsFragment"
+        android:label="Missing Accounts"
+        tools:layout="@layout/closed_accounts_fragment" />
+
+    <fragment
+        android:id="@+id/collection"
+        android:name="com.financial.bala.ui.fragment.CollectionFragment"
+        android:label="Collection"
+        tools:layout="@layout/fragment_collection" />
+
+    <fragment
+        android:id="@+id/cashFlows"
+        android:name="com.financial.bala.ui.fragment.CashFlowFragment"
+        android:label="Cash Flows"
+        tools:layout="@layout/fragment_cash_flow" />
+
+    <fragment
+        android:id="@+id/accounts"
+        android:name="com.financial.bala.ui.fragment.AccountsFragment"
+        android:label="Accounts"
+        tools:layout="@layout/fragment_accounts" />
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.financial.bala.ui.fragment.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

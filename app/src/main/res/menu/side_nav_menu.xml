@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/new_loan"
+        android:title="New Loan" />
+
+    <item
+        android:id="@+id/reorder"
+        android:title="Reorder" />
+
+    <item
+        android:id="@+id/watch_list"
+        android:title="Watch List" />
+
+    <item
+        android:id="@+id/closed_accounts"
+        android:title="Closed Accounts" />
+
+    <item
+        android:id="@+id/missing_accounts"
+        android:title="Missing Accounts" />
+
+</menu>
